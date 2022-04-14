@@ -1,0 +1,117 @@
+body{ 
+    background-color: black;
+    font-style: italic;
+    color: white;
+    margin: 0px;
+}
+header{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+a{
+    color: white;
+    margin-right: 10px;
+}
+a:hover{ color: pink;
+    transition: 0,4ms;
+}
+li{
+    display: inline-block;
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+article{ 
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  margin-right: 100px;
+  margin-top: 50px;
+ 
+}
+input{ 
+    margin-top: 10px;
+    
+}
+span{
+    width: 50%;
+    align-self: initial;
+}
+aside{
+    margin-left: 10px;
+    align-self: center;
+}
+img{
+    width: 400px;
+    align-self: center;
+    border-radius: 10px;
+}
+h1{
+    margin-left: 10px;
+    
+}
+abbr{
+    font-style: oblique;
+   text-decoration: none;
+}
+h1{
+    color: white;
+    font-size: 30px;
+}
+ul{
+    margin-right: 40px;
+    border: 2px solid;
+    border-radius: 10px;
+
+}
+form [type="submit"]{
+    border-radius: 10px;
+    background-color: rgb(255,160,122);
+    font-size: medium;
+    color: white;
+  
+}
+input [type="submit"]:hover{
+    color: rgb(192, 255, 203);
+    transition: 0,4ms;
+
+}
+h{
+    margin-top: 100px;
+}
+
+form [type="text"]{
+    border-radius: 5px;
+}
+form [type="EMAIL"]{
+    border-radius: 5px;
+}
+form [type="NUMBER"]{
+    border-radius: 5px;
+}
+h1{ 
+    border:2px solid;
+    background-color: rgb(255,160,122);
+    border-radius: 10px;
+
+}
+aside{
+    
+   
+}
+h3{
+    margin-left: 10px;
+}
